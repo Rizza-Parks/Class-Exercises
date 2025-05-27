@@ -1,4 +1,4 @@
-groceries = ["cheez its", "nerds gummy clusters", "doritos", "cocoa puffs", "pepsi", "dr. pepper", "sprite"]
+groceries = ["cheez its", "nerds gummy clusters", "doritos", "cocoa puffs", "pepsi", "dr. pepper", "moutain dew"]
 
 while True:
     user_ans = input("what do you want to remove? ")

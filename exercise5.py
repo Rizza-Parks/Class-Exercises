@@ -1,9 +1,9 @@
 menu = { "Pizza": 1.99, "Soda":  0.69, "Double Chunk Chocolate Chip Cookie": 2.49}
 
 def menus(item, price):
-    menu["Chicken Bake"] = 2.99
-    item = "Chicken Bake"
-    price = 2.99
+    menu["Taco"] = 2.25
+    item = "Taco"
+    price = 2.25
 
-menus("Chicken Bake", 2.99) 
+menus("Taco", 2.25) 
 print(menu)
