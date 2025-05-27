@@ -1,14 +1,22 @@
 import random
 
-random_num = random.randint(0,100)
-for input 
-print("")
-while True: 
-    guess = int(input("guess a number \n"))
+
+random_num = random.randint(0, 100)
+
+x = 0
+while True:
+    guess = int(input("guess a number "))
+
     if guess > random_num:
         print("guess lower")
+        x += 1
+
     elif guess < random_num:
         print("guess higher")
-    else: 
-        print("congratulations")
+        x += 1
+
+    elif guess == random_num:
+        print("correct")
+        x += 1
+        print("It took you", x, "tries!")
         break
